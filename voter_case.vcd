@@ -1,0 +1,56 @@
+$date
+	Sun Apr 17 14:24:36 2022
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module voter_case_tb $end
+$scope module voter_case_tb $end
+$var wire 4 ! I [3:0] $end
+$var reg 3 " O [3:1] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx "
+bx !
+$end
+#10000
+b1xx "
+b0 !
+#30000
+b1 !
+#40000
+b10 !
+#50000
+b11x "
+b11 !
+#60000
+b100 !
+#70000
+b101 !
+#80000
+b110 !
+#90000
+b111 "
+b111 !
+#100000
+b1000 !
+#110000
+b1001 !
+#120000
+b1010 !
+#130000
+b1011 !
+#140000
+b1100 !
+#150000
+b1101 !
+#160000
+b1110 !
+#170000
+b1111 !
